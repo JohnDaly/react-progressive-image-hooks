@@ -1,0 +1,23 @@
+{
+  "name": "react-progressive-image-hooks",
+  "version": "1.0.0",
+  "description": "A progressive image component + hooks for React",
+  "author": "John Daly",
+  "license": "MIT",
+  "scripts": {
+      "cleanDemo": "rm -rf ./demo/src/ProgressiveImage/*",
+      "updateDemo": "yarn run build && yarn run cleanDemo && cp -R ./build/dist/* ./demo/src/ProgressiveImage",
+      "build": "tsc"
+  },
+  "peerDependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.20",
+    "@types/react-dom": "^16.8.4",
+    "tslint": "^5.17.0",
+    "tslint-react": "^4.0.0",
+    "typescript": "^3.5.2"
+  }
+}
