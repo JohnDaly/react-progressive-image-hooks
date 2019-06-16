@@ -1,10 +1,12 @@
 # React Progressive Image Hooks - Demo
 
 Before running the demo, be sure to build the `react-progressive-image-hooks` project, by running the following command from the project root directory: 
->yarn run updateDemo
+>yarn build
 
-Once `react-progressive-image-hooks` has been built, you can run the demo application with this command (remember to run it from within the `/demo` directory)
+Next you will need to install the dependencies for the demo application by running the following command in the `/demo` directory:
+>yarn install
 
+Once `react-progressive-image-hooks` has been built, you can run the demo application with this command (remember to run it from within the `/demo` directory):
 >yarn start
 
 ## Note - Browser caching + Network speeds:

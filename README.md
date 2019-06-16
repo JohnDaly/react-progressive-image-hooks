@@ -70,8 +70,13 @@ While the image is loading, this object will be `null`. Once the image is loaded
 
 ## Demo
 
-To run the demo, run the following command in the `/demo` directory: 
+Before running the demo, be sure to build the `react-progressive-image-hooks` project, by running the following command from the project root directory: 
+>yarn build
 
+Next you will need to install the dependencies for the demo application by running the following command in the `/demo` directory:
+>yarn install
+
+After building and installing the dependencies, run the following command in the `/demo` directory:
 >yarn start 
 
 The demo contains a basic example of how you can use the `<ProgressiveImage />` component to load in a small placeholder image, and have it transition to the larger image, when it is loaded.
