@@ -28,7 +28,7 @@ export const useAsyncImage = (src: string): LoadedImage | null => {
             setImage({ src, isCached: false })
         }
 
-        loadingImage.onerror = (err) => {
+        loadingImage.onerror = (err: Event) => {
             setImage(null)
         }
 
@@ -39,7 +39,7 @@ export const useAsyncImage = (src: string): LoadedImage | null => {
                 loadingImage.onerror = null
             }
         }
-    },[])
+    },[src, setImage])
 
     return image
 }

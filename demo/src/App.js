@@ -7,7 +7,7 @@ import React from 'react';
 import './App.css';
 
 // Components
-import { ProgressiveImage } from './ProgressiveImage/dist/ProgressiveImage'
+import { ProgressiveImage } from './ProgressiveImage/ProgressiveImage'
 
 const placeholder = 'https://loremflickr.com/100/50/forest?lock=1'
 const fullSize = 'https://loremflickr.com/400/200/forest?lock=1'
