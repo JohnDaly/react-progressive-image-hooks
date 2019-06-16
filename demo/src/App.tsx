@@ -1,13 +1,13 @@
 // External Dependencies
-import React from 'react';
+import React from 'react'
 
 // Internal Dependencies
 
 // Assets
-import './App.css';
+import './App.css'
 
 // Components
-import { ProgressiveImage } from './ProgressiveImage/ProgressiveImage'
+import { ProgressiveImage } from 'react-progressive-image-hooks'
 
 const placeholder = 'https://loremflickr.com/100/50/forest?lock=1'
 const fullSize = 'https://loremflickr.com/400/200/forest?lock=1'
@@ -25,4 +25,4 @@ function App() {
   );
 }
 
-export default App;
+export default App

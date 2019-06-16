@@ -4,9 +4,10 @@
   "description": "A progressive image component + hooks for React",
   "author": "John Daly",
   "license": "MIT",
+  "main": "index.js",
+  "typings": "build/dist/index.d.ts",
+  "files": ["build/dist/"],
   "scripts": {
-      "cleanDemo": "rm -rf ./demo/src/ProgressiveImage/*",
-      "updateDemo": "yarn run build && yarn run cleanDemo && cp -R ./build/dist/* ./demo/src/ProgressiveImage",
       "build": "tsc"
   },
   "peerDependencies": {

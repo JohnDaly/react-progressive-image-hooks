@@ -16,14 +16,11 @@ export const ProgressiveImage: React.FC<Props> = ({
     src,
     classPrefix = 'prog-img'
 }) => {
-    const [placeholder, fullImage] = useProgressiveImage(placeholderSrc, src)   
-    
-    if (!placeholder && !fullImage) {
-        return <div className={`${classPrefix}--empty`} />
-    }
+    const [placeholder, fullImage] = useProgressiveImage(placeholderSrc, src)
 
     return (
         <div className={`${classPrefix}--container`}>
+            <div className={`${classPrefix}--empty`} />
             {placeholder && <PlaceholderImage {...placeholder} classPrefix={classPrefix} /> }
             {fullImage && <FullImage {...fullImage} classPrefix={classPrefix} /> }
         </div>
