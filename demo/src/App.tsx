@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-          <h1>React ProgressiveImage + Hooks</h1>
+          <h1>React {`<ProgressiveImage />`} + Hooks</h1>
           <div style={{ width: '400px', height: '200px' }}>
             <ProgressiveImage placeholderSrc={placeholder} src={fullSize} />
           </div>
